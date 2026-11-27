@@ -1,0 +1,375 @@
+ /sdkService?func=tsdk:postreglog
+ ICCID 
+ ICCID) 
+ ICCID), 
+ IMEI
+ IMEI 
+ IMEI CTEI CMEI IMSI 
+ IMSI
+ Landroid/telephony/CellIdentity;
+ Lcn/richinfo/dm/db/DbOpenHelper;
+ Lcn/richinfo/dm/net/UrlConstant;
+ Lcn/richinfo/dm/util/LogToFile2;
+ Lcn/richinfo/dm/util/MobileUtil;
+ Lcn/richinfo/dm/util/VerifyUtil;
+ Lcn/richinfo/dm/util/VolleyUtil;
+ MAC, ICCID), d
+ del servizio, il Servizio potrebbe dover raccogliere la versione del dispositivo, le informazioni identificative del dispositivo (inclusi modello del dispositivo, IMEI, CTEI, CMEI, indirizzo IMSI, ICCID, indirizzo MAC e numero seriale), dati hardware e sulle prestazioni (scheda madre, batteria, dimensioni e risoluzioni dello schermo), tipo di rete (MNC, CID, PCI e TAC), stato della rete (stato del commutatore di chiamata HD, stato della rete dati mobile, indirizzo IP e stato e tipo della connessione di rete), l'ora in cui le informazioni sul dispositivo sono state aggiornate l'ultima volta, elenco delle app installate e informazioni sulla posizione.
+ operator = 
+!Lcn/richinfo/dm/util/DigestUtils;
+!cn.richinfo.dmyk.action.HEARTBEAT
+", "cellId":"
+", "cellId2":"
+", "channel":"
+", "iccid1":"
+", "iccid2":"
+", "imei1":"
+", "imei2":"
+", "imsi1":"
+", "imsi2":"
+"/sdkService?func=tsdk:postapplylog
+"Landroid/telephony/CellIdentityNr;
+"Lcn/richinfo/dm/bean/RegisterInfo;
+"Lcn/richinfo/dm/service/DMService;
+"Lcn/richinfo/dm/util/LogToFile2$1;
+"cn.richinfo.dmyk.method.existCheck
+"getVolteCallStatus: iccId is null.
+#Landroid/telephony/CellIdentityLte;
+#Lcn/richinfo/dm/util/BusinessUtils;
+#Lcn/richinfo/dm/util/DmykPhoneInfo;
+#RegService_OppoDmykTelephonyManager
+#cn.richinfo.dmyk.action.APP_COLLECT
+#cn.richinfo.dmyk.action.DM_RESPONSE
+#cn.richinfo.dmyk.method.collectData
+$Lcn/richinfo/dm/provider/DMProvider;
+$Lcn/richinfo/dm/service/DMService$a;
+$Perkhidmatan ini menyediakan perkhidmatan dan teknologi pembawa, termasuk Pendaftaran Sendiri China Mobile, Pendaftaran Sendiri China Unicom dan Pendaftaran Sendiri China Telecom. Untuk menyediakan perkhidmatan dan teknologi ini serta meningkatkan kualiti perkhidmatan, Perkhidmatan mungkin perlu mengumpul versi peranti anda, maklumat pengecam peranti (termasuk model peranti, IMEI, CTEI, CMEI, IMSI, nombor siri, alamat MAC dan ICCID), data perkakasan dan prestasi (papan induk, bateri, dimensi skrin dan resolusi skrin), jenis rangkaian (MNC, CID, PCI dan TAC), status rangkaian (status penukaran panggilan HD, status rangkaian data mudah alih, alamat IP serta status dan jenis sambungan rangkaian), kali terakhir maklumat peranti masa dikemas kini, senarai aplikasi yang dipasang dan maklumat lokasi.
+%cn.richinfo.dmyk.action.APPINFO_RETRY
+&/bluetooth?func=tsdk:postBluetoothInfo
+&DM@richinfo==
+&Lcn/richinfo/dm/util/AlarmManagerUtil;
+&cn.richinfo.dmyk.action.SNAPSHOT_RETRY
+&imei1=
+&imei2=
+&imei=
+&vnd.cn.richinfo.dm.provider.DMProvider
+', "cellId":'
+', "cellId1":'
+', "cellId2":'
+', "channel":'
+', "iccid1":'
+', "iccid2":'
+', "imei1":'
+', "imei2":'
+', "imsi1":'
+', "imsi2":'
+'Lcom/dmyk/android/telephony/DMReceiver;
+'cn.richinfo.dmyk.action.HEARTBEAT_RETRY
+'cn.richinfo.dmyk.action.REGISITER_RETRY
+(Lcn/richinfo/dm/bean/TrafficMomentInfor;
+(Lcn/richinfo/dm/net/JsonResponseHandler;
+)/flowCollectService?func=tsdk:flowcollect
+)Lcom/dmyk/android/telephony/DMReceiver$a;
+)Lcom/dmyk/android/telephony/DMReceiver$b;
+)Lcom/dmyk/android/telephony/OppoReceiver;
+)android.dmyk.action.DEV_LOCK_STATE_CHANGE
+)android.dmyk.net.conn.CONNECTIVITY_CHANGE
+)cn.richinfo.dmpatch.business.DMController
+*Lcn/richinfo/dm/constance/PublicConstance;
+*Lcn/richinfo/dm/receiver/DynamicBroadcast;
+*Lcom/dmyk/android/telephony/DMApplication;
+*android.dmyk.action.ACTION_NETWORK_COLLECT
+*com.dmyk.android.telephony.extra.SIM_STATE
++Lcn/richinfo/dm/constance/PrivateConstance;
++Lcn/richinfo/dm/listener/DMRuntimeListener;
++Lcom/dmyk/android/telephony/OppoDMReceiver;
++Lcom/dmyk/android/telephony/OppoReceiver$a;
++android.dmyk.action.ACTION_LOCK_QUERY_RETRY
+, "imsi1":'
+, ICCID 
+, IMEI, CTEI, CMEI, IMSI, 
+, IMEI, CTEI, CMEI, IMSI, s
+, IMEI, CTEI, CMEI, IMSI-
+, cellId2='
+, cellId='
+, channel1='
+, channel2='
+, iccid2='
+, imsi1='
+, imsi2='
+, imsi= 
+,Lcn/richinfo/dm/util/DMDeviceInfoCollection;
+,Lcn/richinfo/dm/util/SharedPreferencesUtils;
+,android.dmyk.action.ACTION_NET_SPEED_COLLECT
+,com.dmyk.android.telephony.extra.SIM_PHONEID
+,com.dmyk.android.telephony.extra.VOLTE_STATE
+,iccid1=
+,iccid2=
+,imei1=
+,imei2=
+,imsi1=
+,imsi2=
+-Lcn/richinfo/dm/receiver/DMBroadCastReceiver;
+.android.support.BIND_NOTIFICATION_SIDE_CHANNEL
+.com.dmyk.android.telephony.EXTRA_DEV_LOCK_UUID
+/Lcn/richinfo/dm/util/MyUnCatchExceptionHandler;
+/android.dmyk.action.BATTERY_CHARGE_STATE_CHANGE
+/sdkService?func=tsdk:configlog
+/sdkService?func=tsdk:posthblog
+1139287_This Service provides carrier services and technologies, including China Mobile Self-Registration, China Unicom Self-Registration, and China Telecom Self-Registration. To provide these services and technologies and improve service quality, the Service may need to collect your device version, device identifying information (including device model, IMEI, CTEI, CMEI, IMSI, serial number, MAC address, and ICCID), hardware and performance data (motherboard, battery, screen dimensions, and screen resolutions), network type (MNC, CID, PCI, and TAC), network status (HD call switch status, mobile data network status, IP address, and network connection type and status), time device information was last updated, list of installed apps, and location information.
+1android.dmyk.action.BLUETOOTH_CONNECTIVITY_CHANGE
+2Lcn/richinfo/dm/net/encyptrequest/GZIPJsonRequest;
+3com.dmyk.android.telephony.action.SIM_STATE_CHANGED
+4com.dmyk.android.telephony.action.VOLTE_STATE_CHANGE
+5Lcn/richinfo/dm/net/encyptrequest/EncryptJsonRequest;
+5com.dmyk.android.telephony.EXTRA_BATTERY_CHARGE_STATE
+7Lcn/richinfo/dm/net/encyptrequest/EncryptStringRequest;
+8Landroidx/core/app/NotificationCompatSideChannelService;
+8TerminalConfigService/terminalConf?func=tsdk:checkupdate
+>OppoDmykTelephonyManager:SDK is release 2.1.2.1, mIsDoubleLL= 
+@/TerminalConfigService/terminalConf?func=tsdk:termimalfullconfig
+COLUMN_CELLID1
+COLUMN_CELLID2
+COLUMN_CHANNEL
+COLUMN_ICCID1
+COLUMN_ICCID2
+COLUMN_IMSI1
+COLUMN_IMSI2
+COLUMN_OPERATOR_1
+COLUMN_OPERATOR_2
+DmykPhoneInfo
+ICCID 
+ICCID 等
+ICCID 等)
+ICCID) 
+IMEI
+IMEI 
+IMEI1为空
+IMEI1或IMEI2为空
+IMSI
+IMSI 
+IMSI为空
+Iccid1
+Iccid2
+Java_cn_richinfo_dm_util_AesUtil_keyFromJNI
+Layanan Operator
+Layanan ini menyediakan layanan dan teknologi operator, termasuk Pendaftaran Mandiri China Mobile, Pendaftaran Mandiri China Unicom, dan Pendaftaran Mandiri China Telecom. Untuk menyediakan layanan dan teknologi ini serta meningkatkan kualitas layanan, Layanan mungkin perlu mengumpulkan versi perangkat Anda, informasi pengidentifikasi perangkat (termasuk model perangkat, IMEI, CTEI, CMEI, IMSI, nomor seri, alamat MAC, dan ICCID), data perangkat keras dan performa (motherboard, baterai, dimensi layar, dan resolusi layar), jenis jaringan (MNC, CID, PCI, dan TAC), status jaringan (status peralihan panggilan HD, status jaringan data seluler, alamat IP, jenis dan status koneksi jaringan), informasi perangkat waktu yang terakhir diperbarui, daftar aplikasi yang diinstal, dan informasi lokasi.
+Lcn/richinfo/dm/DMConfig;
+Lcn/richinfo/dm/DMController;
+Lcn/richinfo/dm/DMFuncImpl;
+Lcn/richinfo/dm/DMSDK;
+Lcn/richinfo/dm/a$a;
+Lcn/richinfo/dm/a0;
+Lcn/richinfo/dm/a1;
+Lcn/richinfo/dm/a2;
+Lcn/richinfo/dm/a;
+Lcn/richinfo/dm/b$a;
+Lcn/richinfo/dm/b0$a;
+Lcn/richinfo/dm/b0$b;
+Lcn/richinfo/dm/b0;
+Lcn/richinfo/dm/b1;
+Lcn/richinfo/dm/b2;
+Lcn/richinfo/dm/b;
+Lcn/richinfo/dm/c$a;
+Lcn/richinfo/dm/c0$a;
+Lcn/richinfo/dm/c0;
+Lcn/richinfo/dm/c1;
+Lcn/richinfo/dm/c;
+Lcn/richinfo/dm/d0;
+Lcn/richinfo/dm/d1;
+Lcn/richinfo/dm/d;
+Lcn/richinfo/dm/db/DbConstants;
+Lcn/richinfo/dm/db/DbInit;
+Lcn/richinfo/dm/db/DbManager;
+Lcn/richinfo/dm/e$a;
+Lcn/richinfo/dm/e0$a;
+Lcn/richinfo/dm/e0$b;
+Lcn/richinfo/dm/e0$c;
+Lcn/richinfo/dm/e0;
+Lcn/richinfo/dm/e1;
+Lcn/richinfo/dm/e;
+Lcn/richinfo/dm/f0;
+Lcn/richinfo/dm/f1;
+Lcn/richinfo/dm/f;
+Lcn/richinfo/dm/g$a;
+Lcn/richinfo/dm/g0$a;
+Lcn/richinfo/dm/g0$b$a;
+Lcn/richinfo/dm/g0$b$b;
+Lcn/richinfo/dm/g0$b;
+Lcn/richinfo/dm/g0$c;
+Lcn/richinfo/dm/g0$d;
+Lcn/richinfo/dm/g0;
+Lcn/richinfo/dm/g1;
+Lcn/richinfo/dm/g;
+Lcn/richinfo/dm/h0;
+Lcn/richinfo/dm/h1;
+Lcn/richinfo/dm/h;
+Lcn/richinfo/dm/i$a;
+Lcn/richinfo/dm/i$b;
+Lcn/richinfo/dm/i0$a;
+Lcn/richinfo/dm/i0$b;
+Lcn/richinfo/dm/i0$c;
+Lcn/richinfo/dm/i0;
+Lcn/richinfo/dm/i1;
+Lcn/richinfo/dm/i;
+Lcn/richinfo/dm/j$a;
+Lcn/richinfo/dm/j$b;
+Lcn/richinfo/dm/j0;
+Lcn/richinfo/dm/j1;
+Lcn/richinfo/dm/j;
+Lcn/richinfo/dm/k$a;
+Lcn/richinfo/dm/k$b;
+Lcn/richinfo/dm/k0$a;
+Lcn/richinfo/dm/k0;
+Lcn/richinfo/dm/k1;
+Lcn/richinfo/dm/k;
+Lcn/richinfo/dm/l0;
+Lcn/richinfo/dm/l1;
+Lcn/richinfo/dm/l;
+Lcn/richinfo/dm/m$a;
+Lcn/richinfo/dm/m0;
+Lcn/richinfo/dm/m1;
+Lcn/richinfo/dm/m;
+Lcn/richinfo/dm/n0;
+Lcn/richinfo/dm/n1;
+Lcn/richinfo/dm/n;
+Lcn/richinfo/dm/o0;
+Lcn/richinfo/dm/o1;
+Lcn/richinfo/dm/o;
+Lcn/richinfo/dm/p$a;
+Lcn/richinfo/dm/p0;
+Lcn/richinfo/dm/p1;
+Lcn/richinfo/dm/p;
+Lcn/richinfo/dm/provider/a;
+Lcn/richinfo/dm/q0;
+Lcn/richinfo/dm/q1;
+Lcn/richinfo/dm/q;
+Lcn/richinfo/dm/r0;
+Lcn/richinfo/dm/r1;
+Lcn/richinfo/dm/r;
+Lcn/richinfo/dm/s$a;
+Lcn/richinfo/dm/s0;
+Lcn/richinfo/dm/s1;
+Lcn/richinfo/dm/s;
+Lcn/richinfo/dm/t$a;
+Lcn/richinfo/dm/t0;
+Lcn/richinfo/dm/t1;
+Lcn/richinfo/dm/t;
+Lcn/richinfo/dm/u$a;
+Lcn/richinfo/dm/u$b;
+Lcn/richinfo/dm/u0;
+Lcn/richinfo/dm/u1;
+Lcn/richinfo/dm/u;
+Lcn/richinfo/dm/util/AesUtil;
+Lcn/richinfo/dm/util/DebugLog;
+Lcn/richinfo/dm/util/GZIPUtil;
+Lcn/richinfo/dm/util/LisUtils;
+Lcn/richinfo/dm/util/LogUtils;
+Lcn/richinfo/dm/util/MD5;
+Lcn/richinfo/dm/util/SPUtils;
+Lcn/richinfo/dm/util/SignUtil;
+Lcn/richinfo/dm/util/a;
+Lcn/richinfo/dm/util/b;
+Lcn/richinfo/dm/v$a;
+Lcn/richinfo/dm/v0;
+Lcn/richinfo/dm/v1;
+Lcn/richinfo/dm/v;
+Lcn/richinfo/dm/w$a;
+Lcn/richinfo/dm/w0;
+Lcn/richinfo/dm/w1;
+Lcn/richinfo/dm/w;
+Lcn/richinfo/dm/x0;
+Lcn/richinfo/dm/x1;
+Lcn/richinfo/dm/x;
+Lcn/richinfo/dm/y0;
+Lcn/richinfo/dm/y1;
+Lcn/richinfo/dm/y;
+Lcn/richinfo/dm/z$a;
+Lcn/richinfo/dm/z0;
+Lcn/richinfo/dm/z1;
+Lcn/richinfo/dm/z;
+Lcom/dmyk/android/telephony/a;
+Nagbibigay ang Serbisyong ito ng mga serbisyo at teknolohiya ng carrier, kasama ang Sariling Pagpaparehistro sa China Mobile, Sariling Pagpaparehistro sa China Unicom, at Sariling Pagpaparehistro sa China Telecom. Para maibigay ang mga serbisyo at teknolohiyang ito at mapaganda ang kalidad ng serbisyo, posibleng kailanganin ng Serbisyo na kolektahin ang bersyon ng iyong device, impormasyong nagbibigay ng pagkakakilanlan ng device (kasama ang modelo ng device, IMEI, CTEI, CMEI, IMSI, serial number, MAC address, at ICCID), data ng hardware at performance (motherboard, baterya, mga dimensyon ng screen, at mga resolution ng screen), uri ng network (MNC, CID, PCI, at TAC), status ng network (status ng HD call switch, status ng network ng mobile data, IP address, at uri at status ng koneksyon sa network), oras kung kailan huling na-update ang impormasyon ng device, listahan ng mga naka-install na app, at impormasyon ng lokasyon.
+Servizi dell'operatore
+This Service provides carrier services and technologies, including China Mobile Self-Registration, China Unicom Self-Registration, and China Telecom Self-Registration. To provide these services and technologies and improve service quality, the Service may need to collect your device version, device identifying information (including device model, IMEI, CTEI, CMEI, IMSI, serial number, MAC address, and ICCID), hardware and performance data (motherboard, battery, screen dimensions, and screen resolutions), network type (MNC, CID, PCI, and TAC), network status (HD call switch status, mobile data network status, IP address, and network connection type and status), time device information was last updated, list of installed apps, and location information.
+_cellid1
+_cellid2
+_channel
+_iccid1
+_iccid2
+_imsi1
+_imsi2
+cacheImei1
+cacheImei2
+cellId
+cellId1
+cellId2
+cellid1
+cellid2
+channel
+channel1
+channel2
+cn.richinfo.dm.provider
+cn.richinfo.dmyk.action.APPINFO
+create table if not exists table_app_collect_list(_id integer primary key autoincrement, app_table_name varchar(20) ,start_time long ,end_time long ,_iccid1 varchar(20) ,_iccid2 varchar(20) ,_imsi1 varchar(20) ,_imsi2 varchar(20) );
+create table if not exists table_name_net_speed (_id integer primary key autoincrement, netcard text,_imsi1 text,_imsi2 text,_cellid1 text,_lac1 text,_cellid2 text,_lac2 text,_pci1 text,_pci2 text,_bssid text,_ssid text,router_ip text,_timestamp text,_speed_mobile_rx text,_speed_mobile_tx text,_speed_wifi_Rx text,_speed_wifi_tx text);
+create table if not exists table_name_network (_id integer primary key autoincrement, _bssid text,_ssid text,_imsi1 text,_imsi2 text,_iccid1 text,_iccid2 text,_cellid1 text,_cellid2 text,_pci1 text,_pci2 text,_lac1 text,_lac2 text,_signal_intensity1 text,_signal_intensity2 text,_dataCart_Staus1 text,_dataCart_Staus2 text,_wlan_signal_intensity text,_channel text,_wlanSwitch text,slotNetwork1 text,slotNetwork2 text,erafcn4G1 text,erafcn5G1 text,band1 text,rsrp4G1 text,rsrp5G1 text,rsrq4G1 text,rsrq5G1 text,sinr4G1 text,sinr5G1 text,operator1 text,erafcn4G2 text,erafcn5G2 text,band2 text,rsrp4G2 text,rsrp5G2 text,rsrq4G2 text,rsrq5G2 text,sinr4G2 text,sinr5G2 text,operator2 text,netcard text,voicecard text,_timestamp long );
+create table if not exists table_of_time_related_traffic (_id integer primary key autoincrement, _timestamp long ,start_time long ,_iccid1 text,_iccid2 text,_imsi1 text,_imsi2 text,_lac1 text,_cellid1 text,_lac2 text,_cellid2 text,_pci1 text,_pci2 text,collect_Day text,day_hour text,net_type1 text,net_type2 text,total_flow_wifi long ,total_flow_now_data long ,total_flow_now_data2 long ,router_mac text,router_ip text);
+getCellId
+getCellId: No sim card. 
+getCellId: cdmaCell= 
+getCellId: gsmCell= 
+getCellIdentity
+getFullIccId
+getGsmDeviceId: imei= 
+getIMSI
+getIccId
+getIccId, iccId = 
+getIccId: isSimInserted.
+getIccId: singleCardPhone.
+getIccIdFromSubscriptionInfo: 
+getIccOperatorNumeric
+getImei
+getImsi
+getNrCellId nrCellId : 
+getSdkConfig
+getSubscriberId: imsi= 
+getTotalTimeInForeground
+https://a.fxltsbl.com
+https://a.fxltsbl.com/getIpAddr
+https://b.fxltsbl.com
+iccid1
+iccid2
+imei
+imei1
+imei2
+imei_
+imei_unKnown#imsi_unKnown#
+imsi1
+imsi2
+imsiCheck
+imsi_
+le de l'appareil, IMEI, CTEI, CMEI, IMSI, num
+mDmykAbsTelephonyManager
+mDmykPhoneInfo
+n MAC e ICCID), datos de hardware y rendimiento (placa base, bater
+n del dispositivo (incluido modelo de dispositivo, IMEI, CTEI, CMEI, IMSI, n
+n te leveren en de kwaliteit van de service te verbeteren, kan het voor de Service nodig zijn om de volgende gegevens te verzamelen: de versie van uw apparaat, identificerende kenmerken van het apparaat (zoals apparaatmodel, IMEI, CTEI, CMEI, IMSI, serienummer, MAX-adres en ICCID), hardware- en prestatiegegevens (moederbord, batterij, schermafmetingen en schermresoluties), netwerktype (MNC, CID, PCI en TAC), netwerkstatus (HD-oproepschakelstatus, status van het mobiele datanetwerk, IP-adres en netwerkverbindingstype en -status), tijdstip waarop de apparaatgegevens voor het laatst werden bijgewerkt, lijst van ge
+o MAC e ICCID), dados de hardware e desempenho (placa-m
+o do dispositivo (incluindo modelo do dispositivo, IMEI, CTEI, CMEI, IMSI, n
+operator1
+operator2
+oplusGetQcomLTECDMAImei
+rie, adresse MAC et ICCID), les donn
+temodell, IMEI, CMEI, CTEI, IMSI, Seriennummer, MAC-Adresse und ICCID), Hardware- und Leistungsdaten (Motherboard, Akku, Bildschirmabmessungen und Bildschirmaufl
+tsdk:configlog
+zQuesto Servizio fornisce servizi e tecnologie dell'operatore, tra cui China Mobile Self-Registration, China Unicom Self-Registration e China Telecom Self-Registration. Per fornire questi servizi e tecnologie e migliorare la qualit
+{iccid1='
+卡1 IMSI或ICCID为空
+卡1 IMSI或ICCID异常
+卡2 IMSI或ICCID为空
+卡槽1CellId或Lac异常
+卡槽2CellId或Lac异常
+基站信息校验1 <cellId=
+基站信息校验2 Check<cellId=
+当前<imsi1=

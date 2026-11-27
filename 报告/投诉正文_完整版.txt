@@ -1,0 +1,51 @@
+【投诉对象】com.coloros.regservice（ColorOS / 一加 15 国行系统预装组件，内部命名空间 com.dmyk.android.telephony，安装路径 /product/app/RegService.apk，版本 16.0.20）
+
+【问题概述】
+该组件为运营商 DM 云控 SDK（彩讯 richinfo dmyk SDK，appkey=A100000357），在本机无任何用户可见入口、无独立告知与同意的情况下，持续采集设备标识、已安装应用清单、每款应用的使用行为与流量、周边 WiFi 与基站信息，并通过 HTTPS 上传至第三方服务器（域名 fxltsbl.com，注册人为中国移动通信集团终端有限公司，京ICP备17049465号-4）。
+
+【事实与证据】
+
+一、无用户可见入口，无独立告知与同意
+1. 该组件无桌面图标，系统设置中无对应开关项，用户无法知悉其存在与作用。
+2. 全机未发现针对该组件的隐私告知页面或授权界面，采集行为全程在后台静默进行。
+3. 该组件自设备首次开机即随系统预装（文件时间 1970-01-02，系统镜像内置）。
+
+二、采集范围明显超出"设备注册"所必需（附数据库快照 cmcc_dm.db）
+1. app_info 表 524 条：每款已安装应用的包名、名称、启动次数、使用时长、移动与 WiFi 收发流量、安装时间、UID；
+2. table_name_preinstall 表 6010 条：预装应用的包名、版本、签名信息、安装时间；
+3. table_of_time_related_traffic 表 173 条：按天记录 ICCID1/ICCID2、IMSI1/IMSI2、LAC、CellID、PCI；
+4. table_name_network 与 net_speed 表：BSSID、SSID、路由器出口 IP、信号强度、小区信息；
+5. table_name_wifi_list 表：周边 WiFi 列表；
+6. table_name_battery_charge 表：电量与电池温度。
+
+三、数据上传至第三方服务器（附接口清单与证书）
+1. GET https://a.fxltsbl.com/getIpAddr
+2. POST https://a.fxltsbl.com/accept/sdkService?func=tsdk:postreglog（设备注册）
+3. POST https://a.fxltsbl.com/accept/sdkService?func=tsdk:posthblog（心跳）
+4. POST https://a.fxltsbl.com/accept/sdkService?func=tsdk:postapplylog（应用数据）
+5. GET https://a.fxltsbl.com/TerminalConfigService/terminalConf（下发采集开关配置）
+   上述请求参数中包含 imei、imei2 等设备标识；服务器证书为 DigiCert 签发的 *.fxltsbl.com（DV 级，仅验证域名所有权）。
+
+四、采集开关由服务端控制，用户无法关闭
+本地配置文件 config_dm.xml 中 APP_REPORT_SWITCH、key_pre_installed_report_switch、key_heartbeat_switch、key_network_report_switch 等均为 Y，且每次由服务端 terminalConf 接口下发覆盖。实测 2026-11-27 10:02 心跳上报成功、10:15 完成一轮应用清单采集，当日已上报 4 次。
+
+五、敏感个人信息本地明文存放
+IMEI1/IMEI2、ICCID1/ICCID2、IMSI1/IMSI2 以 Java 序列化（可逆）形式明文保存于 /data/data/com.coloros.regservice/shared_prefs/config_dm.xml，未做本地加密。
+
+【涉嫌违反的规定】
+1.《中华人民共和国个人信息保护法》第6条（处理个人信息应具有明确、合理目的，限于实现处理目的的最小范围）；
+2. 同法第13条、第14条（基于同意的处理，同意应由个人在充分知情前提下自愿、明确作出）；
+3. 同法第17条（处理前应以显著方式、清晰易懂的语言真实、准确、完整告知处理者名称、处理目的与方式、信息种类、保存期限等）；
+4. 同法第24条（自动化决策应保证透明度和结果公平公正，并提供不针对个人特征的选项或便捷的拒绝方式）；
+5. 同法第44条至第47条（个人的知情权、决定权、查阅复制权、删除权）；
+6. 同法第55条（处理敏感个人信息、自动化决策等情形应事前进行个人信息保护影响评估）；
+7.《App违法违规收集使用个人信息行为认定方法》中关于"未公开收集使用规则""未经用户同意收集个人信息""收集与业务功能无关的个人信息"的认定情形。
+
+【投诉请求】
+1. 依法对该组件的个人信息处理活动开展核查；
+2. 责令相关方为用户提供可独立关闭该采集功能的入口，或在采集前履行告知并取得单独同意；
+3. 责令停止将上述设备与使用行为数据提供给第三方（含运营商侧系统）；
+4. 责令删除违规采集的存量数据，并将整改结果向用户公示。
+
+【证据材料】
+随本投诉上传压缩包，内含：RegService.apk 原件、cmcc_dm.db 数据库快照、接口清单、开关配置文件（已脱敏）、证书与 DNS 记录、文件 SHA256 校验值。全部数据由本人在自有设备上以只读方式提取，未修改任何系统文件。

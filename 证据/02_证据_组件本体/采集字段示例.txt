@@ -1,0 +1,34 @@
+# 已安装应用采集样本（原库共 524 条，此处取前 30 条的字段结构与数值）
+# 包名与实际应用名已全部替换为占位符，仅保留字段结构与统计值，用于说明采集粒度
+# 字段：包名占位 / 启动次数 / 使用时长(ms) / 移动流量 / WiFi流量
+
+com.example.app01	0	0	0	0
+com.example.app02	0	0	0	0
+com.example.app03	0	0	0	0
+com.example.app04	0	0	0	0
+com.example.app05	0	14179	0	0
+com.example.app06	0	0	0	0
+com.example.app07	0	0	0	0
+com.example.app08	0	0	0	0
+com.example.app09	0	0	0	0
+com.example.app10	0	0	0	0
+com.example.app11	9	322682	0	0
+com.example.app12	0	0	0	0
+com.example.app13	0	85296	0	0
+com.example.app14	0	0	0	0
+com.example.app15	0	0	0	0
+com.example.app16	0	0	0	0
+com.example.app17	8	2632561	0	0
+com.example.app18	0	316189	0	0
+com.example.app19	0	0	0	0
+com.example.app20	0	0	0	0
+com.example.app21	0	159058	0	0
+com.example.app22	0	0	0	0
+com.example.app23	52	1923194	0	0
+com.example.app24	0	0	0	0
+com.example.app25	0	0	0	0
+com.example.app26	0	0	0	0
+com.example.app27	0	0	0	0
+com.example.app28	0	0	0	0
+com.example.app29	0	0	0	0
+com.example.app30	0	0	0	0
