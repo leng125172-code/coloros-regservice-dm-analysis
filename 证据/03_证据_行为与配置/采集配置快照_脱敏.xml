@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <string name="DM_PATCH_VERSION">0</string>
+    <long name="last_alarm_check_time" value="1795756910433" />
+    <int name="heartbeat_count" value="0" />
+    <string name="key_max_report_config">5#86400000</string>
+    <string name="config_sp_version">5</string>
+    <long name="KEY_IP_REQUEST_ARRAYS_ELEMENT0" value="1772605146039" />
+    <string name="UPLOAD_LOG_FILE_SWITCH">N</string>
+    <string name="key_max_report_current">5#1795742691901</string>
+    <string name="key_pre_installed_report_switch">Y</string>
+    <int name="KEY_IP_REQUEST_COUNT" value="1" />
+    <long name="10:3c:59:be:eb:13" value="1772605146039" />
+    <long name="d4:da:21:5a:3b:e5" value="1772277593759" />
+    <string name="KEY_INFORMATION_FOR_TRAFFIC">rO0ABXNyACZjbi5yaWNoaW5mby5kbS5iZWFuLlRyYWZmaWNNb21lbnRJbmZvci+I9hdhHg7jAgAO&#10;SgALY3VycmVudFRpbWVaABZpc1dpZmlOZXR3b3JrQXZhaWxhYmxlTAAGY2VsbElkdAASTGphdmEv&#10;bGFuZy9TdHJpbmc7TAAHY2VsbElkMnEAfgABTAAIY2hhbm5lbDFxAH4AAUwACGNoYW5uZWwycQB+&#10;AAFMAAZpY2NpZDFxAH4AAUwABmljY2lkMnEAfgABTAAFaW1zaTFxAH4AAUwABWltc2kycQB+AAFM&#10;AANsYWNxAH4AAUwABGxhYzJxAH4AAUwABHBjaTFxAH4AAUwABHBjaTJxAH4AAXhwAAABohu/fXMA&#10;dAALNDcyNDg2NTg1NDV0AAsyMjg0MDQwNjI3NXQAAjIwdAACMjB0ABQ4OTg2MDJENTE1MTU0MDE0&#10;ODI1MnQAFDg5ODYwMTE4ODAxMDkwMjk2NzA5dAAPNDYwMDc1NTM2MjUwNTkwdAAPNDYwMDE3MDI2&#10;NjI3NTk5dAAHMTE3OTcxM3QABzU1NzUxNjh0AAMyMzl0AAM4MTY=&#10;    </string>
+    <string name="key_battery_charging_report_switch">Y</string>
+    <int name="KEY_IP_REQUEST_ARRAYS_SIZE" value="1" />
+    <long name="retry_interval" value="600000" />
+    <long name="key_wifi_Data_Life_time" value="604800000" />
+    <string name="key_roaming_report_switch">Y</string>
+    <int name="max_retry_count" value="1" />
+    <string name="key_lock_check">N</string>
+    <string name="KEY_TIME_RELATED_TRAFFIC_SWITCH">Y</string>
+    <string name="KEY_SANPSHOT_REPORT_SWITCH">N</string>
+    <long name="last_heartbeat_time" value="1795744932407" />
+    <string name="SLEEP_SWITCH">N</string>
+    <long name="key_bluetooth_Data_Life_time" value="604800000" />
+    <string name="key_net_speed">Y</string>
+    <long name="10:3c:59:c0:eb:13" value="1772581957405" />
+    <string name="SDK_CONFIG">{&quot;wifi&quot;:{&quot;uuid&quot;:&quot;cbedec37f0049a7db1ee3e5c7601edad&quot;,&quot;isOpen&quot;:&quot;Y&quot;,&quot;parameters&quot;:{}},&quot;roaming&quot;:{&quot;uuid&quot;:&quot;cbf1b09782c61a44c0acecb38321317c&quot;,&quot;isOpen&quot;:&quot;Y&quot;,&quot;parameters&quot;:{}},&quot;urlConfig&quot;:{&quot;uuid&quot;:null,&quot;isOpen&quot;:&quot;Y&quot;,&quot;parameters&quot;:{}},&quot;systemParams&quot;:{&quot;uuid&quot;:&quot;0f9b1ab781ec1ad6ff56fc9fa1d85c38&quot;,&quot;isOpen&quot;:&quot;Y&quot;,&quot;parameters&quot;:{&quot;sleepSwitch&quot;:&quot;N&quot;,&quot;netSpeedLiftTime&quot;:168,&quot;isSdkUpdate&quot;:&quot;N&quot;,&quot;netSpeedRate&quot;:86400000,&quot;appRate&quot;:168,&quot;batteryDataLifeTime&quot;:168,&quot;apnRate&quot;:72,&quot;flowReportMax&quot;:24,&quot;regReportMax&quot;:5,&quot;autoRegTime&quot;:10,&quot;ipRate&quot;:1,&quot;startTime&quot;:0,&quot;flowDataLifeTime&quot;:168,&quot;keepAliveRate&quot;:24,&quot;networkInterval&quot;:24,&quot;wifiDataLiftTime&quot;:168,&quot;regRate&quot;:24,&quot;flowSwitch&quot;:&quot;Y&quot;,&quot;ipReqMax&quot;:1,&quot;switch5g&quot;:&quot;N&quot;,&quot;appDataLifeTime&quot;:360,&quot;lockRetry&quot;:60000,&quot;autoRegRetryCount&quot;:1,&quot;netDataLifeTime&quot;:168,&quot;bluetoothDataLifeTime&quot;:168,&quot;baseUrl&quot;:&quot;N&quot;,&quot;sleepTime&quot;:0,&quot;appCollectRate&quot;:168,&quot;interval&quot;:3600000,&quot;validity&quot;:-1}},&quot;preinstall&quot;:{&quot;uuid&quot;:&quot;cf6f4226897e8727bb4c128f086a166e&quot;,&quot;isOpen&quot;:&quot;Y&quot;,&quot;parameters&quot;:{}},&quot;keepAliveConfig&quot;:{&quot;uuid&quot;:&quot;5a034dad817f0872737cb94bcdba1d1a&quot;,&quot;isOpen&quot;:&quot;Y&quot;,&quot;parameters&quot;:{}},&quot;battery&quot;:{&quot;uuid&quot;:&quot;b3751362afbb395204e62f0903bdeee8&quot;,&quot;isOpen&quot;:&quot;Y&quot;,&quot;parameters&quot;:{}},&quot;autoRegister&quot;:{&quot;uuid&quot;:&quot;8f90452b42c103befadca449376b37bf&quot;,&quot;isOpen&quot;:&quot;Y&quot;,&quot;parameters&quot;:{}},&quot;network&quot;:{&quot;uuid&quot;:&quot;c41c11bf4d81d5a47c0cb0f2b4f214c5&quot;,&quot;isOpen&quot;:&quot;Y&quot;,&quot;parameters&quot;:{}},&quot;compensateConfig&quot;:{&quot;uuid&quot;:null,&quot;isOpen&quot;:&quot;Y&quot;,&quot;parameters&quot;:{}},&quot;appConfig&quot;:{&quot;uuid&quot;:&quot;100a700f71e5ff4790904c23f04553be&quot;,&quot;isOpen&quot;:&quot;Y&quot;,&quot;parameters&quot;:{}},&quot;bluetooth&quot;:{&quot;uuid&quot;:&quot;edafcd4dd92b74fc677e7e76bdedadb3&quot;,&quot;isOpen&quot;:&quot;Y&quot;,&quot;parameters&quot;:{}},&quot;flowcollect&quot;:{&quot;uuid&quot;:&quot;17611e9d439deb81ca240813853f69b6&quot;,&quot;isOpen&quot;:&quot;Y&quot;,&quot;parameters&quot;:{}},&quot;netSpeedMonitor&quot;:{&quot;uuid&quot;:&quot;4e33b64507456dc55bcbc79e8e66faad&quot;,&quot;isOpen&quot;:&quot;Y&quot;,&quot;parameters&quot;:{}},&quot;systemParams2&quot;:{&quot;uuid&quot;:&quot;6128149d24122ad90f1c06144ee45ea6&quot;,&quot;isOpen&quot;:&quot;Y&quot;,&quot;parameters&quot;:{&quot;netSpeedLiftTime&quot;:168,&quot;sleepSwitch&quot;:&quot;N&quot;,&quot;isSdkUpdate&quot;:&quot;N&quot;,&quot;networkIntervalMax&quot;:1,&quot;netSpeedRateMax&quot;:1,&quot;netSpeedRate&quot;:86400000,&quot;appRate&quot;:604800000,&quot;batteryDataLifeTime&quot;:168,&quot;apnRate&quot;:72,&quot;ipRateMax&quot;:1,&quot;flowReportMax&quot;:24,&quot;regReportMax&quot;:5,&quot;autoRegTime&quot;:600000,&quot;flowDataLifeTime&quot;:168,&quot;ipRate&quot;:3600000,&quot;startTime&quot;:0,&quot;keepAliveRate&quot;:86400000,&quot;appCollectRateMax&quot;:1,&quot;networkInterval&quot;:86400000,&quot;wifiDataLiftTime&quot;:168,&quot;regRate&quot;:86400000,&quot;flowSwitch&quot;:&quot;Y&quot;,&quot;appDataLifeTime&quot;:360,&quot;switch5g&quot;:&quot;N&quot;,&quot;lockRetry&quot;:60000,&quot;autoRegRetryCount&quot;:1,&quot;bluetoothDataLifeTime&quot;:168,&quot;netDataLifeTime&quot;:168,&quot;keepAliveRateMax&quot;:1,&quot;appReportRateMax&quot;:1,&quot;sleepTime&quot;:0,&quot;appCollectRate&quot;:604800000,&quot;validity&quot;:-1}},&quot;whitelistconfig&quot;:{&quot;uuid&quot;:&quot;50033d9755d94c155a1552e1ceb1b4ed&quot;,&quot;isOpen&quot;:&quot;Y&quot;,&quot;parameters&quot;:{&quot;wifi&quot;:&quot;Y&quot;,&quot;keepAlive&quot;:&quot;Y&quot;,&quot;internationalRoaming&quot;:&quot;Y&quot;,&quot;appInfo&quot;:&quot;Y&quot;,&quot;flowSwitch&quot;:&quot;Y&quot;,&quot;photoReg&quot;:&quot;N&quot;,&quot;logReport&quot;:&quot;N&quot;,&quot;businessInfo&quot;:&quot;N&quot;,&quot;network&quot;:&quot;Y&quot;,&quot;terminalLock&quot;:&quot;N&quot;,&quot;bluetooth&quot;:&quot;N&quot;,&quot;netSpeedMonitor&quot;:&quot;Y&quot;,&quot;preInstalledApp&quot;:&quot;Y&quot;,&quot;batteryCharging&quot;:&quot;Y&quot;}}}</string>
+    <int name="app_heartbeat_count" value="0" />
+    <string name="key_network_report_switch">Y</string>
+    <string name="KEY_REGISITER_MD5">74d48bfc69a84e12ff672484d16c04f3</string>
+    <long name="last_success_heartbeat_time" value="1795744933190" />
+    <int name="regisiter_heartbeat_count" value="0" />
+    <boolean name="key_can_roaming_report" value="true" />
+    <string name="APP_REPORT_SWITCH">Y</string>
+    <long name="key_app_collect_time" value="1795761859023" />
+    <long name="key_preinstall_time" value="1772277593658" />
+    <string name="key_heartbeat_switch">Y</string>
+    <long name="last_app_heartbeat_time" value="1795218359531" />
+    <long name="key_net_Data_Life_time" value="604800000" />
+    <long name="key_lock_retry_interval" value="60000" />
+    <int name="KEY_IP_RATE" value="1" />
+    <string name="KEY_IP_MAC_HASHMAP">rO0ABXNyABFqYXZhLnV0aWwuSGFzaE1hcAUH2sHDFmDRAwACRgAKbG9hZEZhY3RvckkACXRocmVz&#10;aG9sZHhwP0AAAAAAAAx3CAAAABAAAAADdAARMTA6M2M6NTk6YmU6ZWI6MTN0AA0zOS4xNDQuMTI0&#10;LjE1dAARZDQ6ZGE6MjE6NWE6M2I6ZTV0AA0xMDEuNjguMTg5LjI4dAARMTA6M2M6NTk6YzA6ZWI6&#10;MTN0AAwzNi4yOC44My4xMDV4&#10;    </string>
+    <int name="KEY_IP_VALIDITY" value="-1" />
+    <long name="KEY_SLEEP_END_TIME" value="0" />
+    <long name="KEY_SLEEP_START_TIME" value="0" />
+    <string name="key_base_config_url">https://a.fxltsbl.com</string>
+    <long name="key_battery_Data_Life_time" value="604800000" />
+    <long name="key_network_last_time" value="1795761859115" />
+    <long name="KEY_FLOW_REPORT_MAX" value="1788819432581" />
+    <long name="key_network_interval" value="86400000" />
+    <string name="key_5g_state_report_switch">N</string>
+    <long name="key_speed_data_life_time" value="604800000" />
+    <string name="key_base_accept_url">https://a.fxltsbl.com</string>
+    <long name="key_app_Data_Life_time" value="1296000000" />
+    <long name="app_heartbeat_interval" value="604800000" />
+    <long name="key_net_speed_last_time" value="1795761861128" />
+    <string name="KEY_ROUTER_MAC">null</string>
+    <string name="key_bluetooth_report_switch">N</string>
+    <string name="KEY_ROUTER_IP">null</string>
+    <long name="key_net_speed_interval" value="86400000" />
+    <string name="KEY_BUSINESS_INFO">N</string>
+    <string name="DYNAMIC_LOAD_SWITCH">N</string>
+    <long name="heartbeat_interval" value="86400000" />
+    <long name="key_flow_Data_Life_time" value="604800000" />
+    <string name="key_wifi_list_report_switch">Y</string>
+</map>
